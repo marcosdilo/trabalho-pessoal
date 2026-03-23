@@ -85,29 +85,38 @@
 
   </div>
 
-  <div class="contact-form">
-    <h3>Envie uma mensagem</h3>
-    <div class="form-row">
-      <div class="form-group">
-        <label>Nome</label>
-        <input type="text" placeholder="Seu nome">
-      </div>
-      <div class="form-group">
-        <label>E-mail</label>
-        <input type="email" placeholder="seu@email.com">
-      </div>
-    </div>
+<form class="contact-form" action="https://formspree.io/f/mojkogea" method="POST">
+  <h3>Envie uma mensagem</h3>
+
+  <div class="form-row">
     <div class="form-group">
-      <label>Assunto</label>
-      <input type="text" placeholder="Sobre o que você quer falar?">
+      <label>Nome</label>
+      <input type="text" name="nome" placeholder="Seu nome" required>
     </div>
+
     <div class="form-group">
-      <label>Mensagem</label>
-      <textarea placeholder="Escreva sua mensagem aqui..."></textarea>
+      <label>E-mail</label>
+      <input type="email" name="email" placeholder="seu@email.com" required>
     </div>
-    <button class="btn-send" onclick="alert('Mensagem enviada! Em breve entrarei em contato.')">
-      Enviar mensagem &nbsp;→
-    </button>
+  </div>
+
+  <div class="form-group">
+    <label>Assunto</label>
+    <input type="text" name="assunto" placeholder="Sobre o que você quer falar?">
+  </div>
+
+  <div class="form-group">
+    <label>Mensagem</label>
+    <textarea name="mensagem" placeholder="Escreva sua mensagem aqui..." required></textarea>
+  </div>
+
+  <!-- título do email -->
+  <input type="hidden" name="_subject" value="Nova mensagem do site!">
+
+  <button class="btn-send" type="submit">
+    Enviar mensagem →
+  </button>
+</form>
   </div>
 
 </div>
