@@ -259,4 +259,5 @@ aside {
   border-bottom: 1px solid #ddd;
   padding-bottom: 15px;
   margin-bottom: 15px;
+  background-color: rgba(128, 128, 128, 0.5);
 }
