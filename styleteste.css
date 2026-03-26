@@ -37,7 +37,6 @@ body {
   font: 1rem var(--f-mono);
 }
 
-/* ===================== LAYOUT ===================== */
 
 .post {
   width: min(90vw, 1100px);
@@ -57,7 +56,6 @@ body {
   to   { opacity: 1; transform: translateY(0); }
 }
 
-/* ===================== MAIN ===================== */
 
 main {
   display: flex;
@@ -93,7 +91,6 @@ main {
   color: var(--acento);
 }
 
-/* ===================== POST ACTIONS ===================== */
 
 .post-actions {
   width: 100%;
@@ -127,7 +124,6 @@ main {
   opacity: .5;
 }
 
-/* ===================== POST CONTENT ===================== */
 
 .post-content {
   border: 1px solid var(--grey);
@@ -155,7 +151,6 @@ main {
   margin-top: 0;
 }
 
-/* ===================== ASIDE ===================== */
 
 aside {
   display: grid;
@@ -164,7 +159,6 @@ aside {
   gap: .5rem;
 }
 
-/* ===================== AVATAR ===================== */
 
 .avatar {
   --avw: 220px;
@@ -255,7 +249,7 @@ aside {
   opacity: 0;
 }
 
-/* ===================== CONTACT NAV ===================== */
+
 
 .contact {
   width: 100%;
@@ -288,7 +282,6 @@ aside {
   background: rgba(255,255,255,.2);
 }
 
-/* ===================== SOCIAL CARDS (contato) ===================== */
 
 .card-social {
   display: flex;
@@ -339,8 +332,6 @@ aside {
   font: .7rem var(--f-mono);
   opacity: .6;
 }
-
-/* ===================== CONTACT FORM ===================== */
 
 .contact-form {
   display: flex;
@@ -414,7 +405,7 @@ aside {
   transform: translateY(-1px);
 }
 
-/* ===================== SKILLS (sobre) ===================== */
+
 
 .skills-grid {
   display: flex;
@@ -478,7 +469,7 @@ aside {
   line-height: 150%;
 }
 
-/* ===================== PROJECTS (projetos) ===================== */
+
 
 .projects-grid {
   display: grid;
@@ -535,7 +526,7 @@ aside {
   color: var(--acento-light);
 }
 
-/* ===================== NOTÍCIAS ===================== */
+
 
 .noticia {
   border-bottom: 1px solid var(--grey);
@@ -577,7 +568,6 @@ aside {
   margin-top: .4rem;
 }
 
-/* ===================== RESPONSIVE ===================== */
 
 @media (max-width: 700px) {
   .post {
