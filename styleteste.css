@@ -278,8 +278,9 @@ aside {
   background: rgba(255,255,255,.15);
 }
 
-.contact a.active {
-  background: rgba(255,255,255,.2);
+.contact a:active {
+  transform: scale(0.9);
+  background: rgba(255,255,255,0.3);
 }
 
 
