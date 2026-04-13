@@ -594,4 +594,9 @@ aside {
   .projects-grid {
     grid-template-columns: 1fr;
   }
+
+.contact a.active {
+  background: rgba(255, 255, 255, 0.25);
+  transform: scale(1.15);
 }
+
