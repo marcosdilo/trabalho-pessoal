@@ -596,7 +596,7 @@ aside {
   }
 
 .contact a.active {
-  background: rgba(255, 255, 255, 0.25);
-  transform: scale(1.15);
+  opacity: 1;
+  filter: drop-shadow(0 0 4px rgba(255,255,255,0.5));
 }
 
